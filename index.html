@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <!-- Главный язык документа -->
+  <head>
+    <!-- Кодировку страницы необходимо указать для того, чтобы браузер корректно отобразил текст -->
+    <meta charset="UTF-8" />
+
+    <!-- Краткое описание содержания помогает поисковым системам лучше проиндексировать страницу -->
+    <meta name="description" content="Дизайн та розробка сайтів - Головна сторінка" />
+
+    <!-- Размер окна браузера -->
+    <!-- Ширина - ширина девайса (width=device-width)-->
+    <!-- Масштаб просмотра 1:1 (initial-scale=1.0) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Заголовок страницы, который отображается во вкладке браузера -->
+    <!-- Текст заголовка содержит краткое описание содержимого веб-страницы -->
+    <!-- Длина заголовка должна быть не более 60 символов, чтобы полностью поместиться в заголовке -->
+    <title>JavaScript</title>
+
+    <!-- Подключение  шрифтов -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    /> -->
+
+    <!-- подключается нормализатор стилей для всех браузеров - перед подключением остальных стилей -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    /> -->
+
+    <!-- Подключение внешнего файла со стилями -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- <link rel="stylesheet" href="./css/main.min.css" /> -->
+  </head>
+  <body>
+    <h1>JavaScript</h1>
+    
+
+      <!-- <label for="num1">
+        Число
+        <input type="number" value="1" id="num1" data-value />
+      </label>
+      <button type="button" data-add>Прибавить</button>
+      <button type="button" data-reset>Очистить</button>
+      <p class="js-output">Сумма : <span>0</span> грн.</p> -->
+
+
+      <!-- Подключение файла .pdf -->
+      <!-- <iframe
+        src="./pdf/8.pdf"
+        width="100%"
+        height="450px"
+        loading="lazy"
+        title="PDF-file"
+      ></iframe> -->
+
+      <!-- Проблема попадания вредоносного кода -->
+      <!-- <object data="./pdf/1.pdf" type="application/pdf" width="100%" height="450px"></object> -->
+
+      <!-- Самое современное средство вставки pdf-файла -->
+      <!-- <embed
+        src="./pdf/8.pdf"
+        type="application/pdf"
+        width="100%"
+        height="400px"
+        class="embed-pdf"
+      /> -->
+    </main>
+
+    <!-- Футер - подвал сайта -->
+    <footer class="page-footer"></footer>
+
+    <!-- Ставим перед закрывающим тегом body -->
+    <!-- Вызов скриптов -->
+
+
+
+    <!-- Урок 1 - Примеры -->
+    <!-- <script src="./js/lesson-1.js" type="module"></script> -->
+    <!-- Урок 1 - Из видео 2 - связь поля и JS -->
+    <!-- <script src="./js/lesson-1-input.js" type="module"></script> -->
+    <!-- Урок 2-1. Массивы.  Примеры -->
+    <!-- <script src="./js/lesson-2-1.js" type="module"></script> -->
+    <!-- Урок 2-2. Функции.  Примеры -->
+    <!-- <script src="./js/lesson-2-2.js" type="module"></script> -->
+    <!-- Урок 3-1. Объекты.  Примеры -->
+    <script src="./js/lesson-3-1-conspect.js" type="module"></script>
+
+    <!-- Скрипт для вывода в консоль информацию о вводе данных -->
+    <!-- <script>
+      (() => {
+        document.querySelector('.form-newsletter').addEventListener('submit', e => {
+          e.preventDefault();
+          new FormData(e.currentTarget).forEach((value, name) => console.log('${name}: ${value}'));
+        });
+      })();
+    </script> -->
+
+    <!-- Установка верхнего отступа по высоте шапки для body -->
+    <!-- <script>
+      const { height: pageHeaderHeight } = document
+        .querySelector('.page-header')
+        .getBoundingClientRect();
+
+      document.body.style.paddingTop = '${pageHeaderHeight}px';
+    </script> -->
+  </body>
+</html>
