@@ -40,9 +40,6 @@
     <!-- <link rel="stylesheet" href="./css/main.min.css" /> -->
   </head>
   <body>
-    <!-- Загрузка библиотеки lodash -->
-    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
-
     <h1>JavaScript</h1>
 
     <main>
@@ -82,6 +79,9 @@
     <!-- Ставим перед закрывающим тегом body -->
     <!-- Вызов скриптов -->
 
+    <!-- Загрузка библиотеки методов lodash -->
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+
     <!-- Урок 1 - Примеры -->
     <!-- <script src="./js/lesson-1.js" type="module"></script> -->
     <!-- Урок 1 - Из видео 2 - связь поля и JS -->
@@ -99,7 +99,9 @@
     <!-- Урок 4. Перебирающие методы массива.  Примеры из конспекта -->
     <!-- <script src="./js/lesson-4-conspect.js" type="module"></script> -->
     <!-- Урок 4. Перебирающие методы массива.  Примеры из видео -->
-    <script src="./js/lesson-4-video.js" type="module"></script>
+    <!-- <script src="./js/lesson-4-video.js" type="module"></script> -->
+    <!-- Урок 5. Ключевое слово this. Прототипы и классы.  Примеры из конспекта -->
+    <script src="./js/lesson-5-conspect.js" type="module"></script>
 
     <!-- Скрипт для вывода в консоль информацию о вводе данных -->
     <!-- <script>
@@ -117,7 +119,7 @@
         .querySelector('.page-header')
         .getBoundingClientRect();
 
-      document.body.style.paddingTop = '${pageHeaderHeight}px';
+      document.body.style.paddingTop = `${pageHeaderHeight}px`;
     </script> -->
   </body>
 </html>
