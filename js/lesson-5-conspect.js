@@ -181,6 +181,7 @@ function greetGuest1(greeting) {
 let mango = {
   username: "Манго",
 };
+
 let poly = {
   username: "Поли",
 };
