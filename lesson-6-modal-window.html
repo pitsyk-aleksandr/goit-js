@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <!-- Главный язык документа -->
+  <head>
+    <!-- Кодировку страницы необходимо указать для того, чтобы браузер корректно отобразил текст -->
+    <meta charset="UTF-8" />
+
+    <!-- Краткое описание содержания помогает поисковым системам лучше проиндексировать страницу -->
+    <meta name="description" content="Дизайн та розробка сайтів - Головна сторінка" />
+
+    <!-- Размер окна браузера -->
+    <!-- Ширина - ширина девайса (width=device-width)-->
+    <!-- Масштаб просмотра 1:1 (initial-scale=1.0) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Заголовок страницы, который отображается во вкладке браузера -->
+    <!-- Текст заголовка содержит краткое описание содержимого веб-страницы -->
+    <!-- Длина заголовка должна быть не более 60 символов, чтобы полностью поместиться в заголовке -->
+    <title>JavaScript</title>
+
+    <!-- Иконка сайта -->
+    <link rel="icon" href="heart.svg" type=" image/svg" />
+
+    <!-- Подключение  шрифтов -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    /> -->
+
+    <!-- подключается нормализатор стилей для всех браузеров - перед подключением остальных стилей -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    /> -->
+
+    <!-- Подключение внешнего файла со стилями -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Подключение внешнего файла со стилями для модального окна -->
+    <link rel="stylesheet" href="./css/modal-window.css" />
+    <!-- <link rel="stylesheet" href="./css/main.min.css" /> -->
+  </head>
+  <body>
+    <!-- ------------------------------------------------------------------------------- -->
+    <!-- Модальное окно - работа с событиями -->
+    <!-- ------------------------------------------------------------------------------- -->
+    <p><a href="/">На главную страницу</a></p>
+
+    <button class="button" data-action="open-modal">Открыть модальное окно</button>
+
+    <div class="backdrop js-backdrop">
+      <div class="modal">
+        <h2>Модальное окно</h2>
+        <p>Содержание модального окна</p>
+        <button type="button" class="button" data-action="close-modal">
+          Закрыть модальное окно
+        </button>
+      </div>
+    </div>
+    <!-- Урок 6. DOM и события.  Модальное окно -->
+    <script src="./js/lesson-6-modal-window.js" type="module"></script>
+  </body>
+</html>
